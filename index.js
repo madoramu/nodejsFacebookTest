@@ -9,7 +9,7 @@ app.get('/', function (request, responce) {
     responce.render('index.html');
 });
 
-app.set('/', function(request, responce){
+app.post('/', function(request, responce){
     responce.redirect('/');
 });
 
